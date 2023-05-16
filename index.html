@@ -4,21 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Website</title>
   </head>
-  <body style="background-color: rgb(201, 201, 201)">
+  <body style="background-color: rgb(238, 240, 243)">
+    <nav>
+      <div>
+        <img src="logo.png" alt="" width="36px" />
+      </div>
+      <div class="nav-left">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#">My Project</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </nav>
     <main>
       <div
         class="container"
         style="
           margin: 36px auto;
           padding: 24px;
-          width: 800px;
+          width: 80%;
           border-style: solid;
           border-color: transparent;
           border-radius: 10px;
           background-color: white;
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          display: flex;
         "
       >
         <h1>Hi Welcome to my hut</h1>
@@ -68,68 +84,62 @@
           >
             download CV
             <img
-              src="icons8-download-48.png"
+              src="icons8-linkedin-30.png"
               alt=""
-              width="20px"
-              height="20px"
+              width="30px"
+              height="30px"
+              style="margin-right: 24px"
             />
-          </button>
+            <img
+              src="icons8-instagram-50.png"
+              alt=""
+              width="30px"
+              height="30px"
+              style="margin-right: 24px"
+            />
+            <img
+              src="icons8-facebook-50.png"
+              alt=""
+              width="30px"
+              height="30px"
+              style="margin-right: 24px"
+            />
+            <img
+              src="icons8-twitter-circled-50.png"
+              alt=""
+              width="30px"
+              height="30px"
+              style="margin-right: 24px"
+            />
+          </div>
+          <br />
         </div>
-        <br />
-        <div style="text-align: center">
-          <img
-            src="icons8-linkedin-30.png"
-            alt=""
-            width="30px"
-            height="30px"
-            style="margin: 0 25px"
-          />
-          <img
-            src="icons8-instagram-50.png"
-            alt=""
-            width="30px"
-            height="30px"
-            style="margin: 0 25px"
-          />
-          <img
-            src="icons8-facebook-50.png"
-            alt=""
-            width="30px"
-            height="30px"
-            style="margin: 0 25px"
-          />
-          <img
-            src="icons8-twitter-circled-50.png"
-            alt=""
-            width="30px"
-            height="30px"
-            style="margin: 0 25px"
-          />
-        </div>
-        <br />
-        <div
-          style="
-            width: 35%;
-            height: 300px;
-            margin: 0 auto;
-            border-style: solid;
-            border-color: transparent;
-            border-radius: 10px;
-            background-color: white;
-            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-          "
-        >
+        <div class="container-right">
           <div
             style="
-              height: 60%;
-              background-image: url(ultraman.jpg);
-              background-size: contain;
-              border-radius: 10px 10px 0 0;
+              width: 70%;
+              height: 90%;
+              margin: auto;
+              border-style: solid;
+              border-color: transparent;
+              border-radius: 10px;
+              background-color: white;
+              box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
             "
-          ></div>
-          <div style="margin: 12px auto; text-align: center">
-            <h3>Bajigur</h3>
-            <p>Frontend Engineer</p>
+          >
+            <div
+              style="
+                height: 80%;
+                background-image: url(ultraman.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 10px 10px 0 0;
+              "
+            ></div>
+            <div style="padding: 24px 0; text-align: center" class="about">
+              <h3>Bajigur</h3>
+              <p>Frontend Engineer</p>
+            </div>
           </div>
         </div>
       </div>
